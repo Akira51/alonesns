@@ -9,7 +9,7 @@
     statuses => { 
       fields => ['*'],
       defaults => {
-        user => 'きっと俺',
+        user => 'Akira51',
       },
       primary_keys => ['id'],
       protected_keys => ['created_at'],

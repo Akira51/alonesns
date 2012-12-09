@@ -1,8 +1,5 @@
-#!perl
-use strict;
-use warnings;
-
 use Mojolicious::Lite;
+use utf8;
 use DBI;
 use SQL::Maker;
 use File::Basename;
@@ -138,11 +135,8 @@ app->start;
 __DATA__
 
 @@ table.html.ep
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>database utility</title>
+<!DOCTYPE HTML><html><head><meta charset="UTF-8">
+<title>sqlite3 DB ŠÇ—‰æ–Ê</title>
 <style type="text/css">
 td { min-width: 100px; }
 </style>
@@ -166,8 +160,7 @@ td { min-width: 100px; }
 %} else {
 Not available.
 %}
-</body>
-</html>
+</body></html>
 
 @@ not_found.json.ep
 {"error": "Not Found"}
